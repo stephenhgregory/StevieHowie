@@ -1,0 +1,53 @@
+.cta {
+
+    .form-input {
+        border-color: transparent;
+        border-radius: 2px;
+    }
+}
+
+.cta-inner {
+	padding-left: 16px;
+	padding-right: 16px;
+    background-color: get-color(primary, 1);
+    background: linear-gradient(100deg, get-color(primary, 1) 0, get-color(secondary, 1) 75%, get-color(tertiary, 1) 100%);
+}
+
+.cta-inner-premium {
+	padding-left: 16px;
+	padding-right: 16px;
+    background-color: get-color(primary, 1);
+    background: linear-gradient(100deg, get-color(primary, 1) 0, get-color(secondary, 1) 75%, get-color(tertiary, 1) 100%);
+}
+
+.cta-inner-lite {
+	padding-left: 16px;
+	padding-right: 16px;
+	background-color: color-bg(button-dark);
+    background: linear-gradient(150deg, get-color(dark, 1) 0, get-color(dark, 2) 65%, get-color(quaternary, 3) 100%);
+}
+
+@include media( '>medium' ) {
+
+.cta {
+
+    .form-input {
+        min-width: 280px;
+    }
+}
+
+	.cta-inner {
+		padding-left: 48px;
+		padding-right: 48px;
+	}
+
+	.cta-inner-premium {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+
+	.cta-inner-lite {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+}

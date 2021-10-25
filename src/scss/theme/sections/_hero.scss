@@ -1,0 +1,47 @@
+/* The first hero image of Stevie */
+.stevie-hero-image-01 {
+
+    background-image: linear-gradient(rgba(236, 228, 228, 0.1), rgba(0, 0, 0, 0.3)), url("../../../images/steviehowie_site_header.jpeg");
+
+    /* Set a specific height and width */
+    width: 100%;
+    height: auto;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* The second hero image of Stevie */
+.stevie-hero-image-02 {
+
+  background-image: linear-gradient(rgba(236, 228, 228, 0.1), rgba(0, 0, 0, 0.3)), url("../../../images/steviehowie_site_header_cropped.jpeg");
+
+  /* Set a specific height and width */
+  width: 100%;
+  height: auto;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* The second hero image of Sydney */
+.sydney-hero-image-02 {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../../../images/sydney_pic10_gray_cropped.jpg");
+
+  /* Set a specific height and width */
+  width: 100%;
+  height: auto;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
